@@ -1,0 +1,25 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 id="home-score">0</h2>
+                <button id="home-score-btn-1" onclick="hadd1()">+1</button>
+                <button id="home-score-btn-2" onclick="hadd2()">+2</button>
+                <button id="home-score-btn-3" onclick="hadd3()">+3</button>                
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h2 id="guest-score">0</h2>                
+                <button id="guest-score-btn-1" onclick="gadd1()">+1</button>
+                <button id="guest-score-btn-2" onclick="gadd2()">+2</button>
+                <button id="guest-score-btn-3" onclick="gadd3()">+3</button>   
+            </div>
+        </div>
+        <button id="btn-reset" onclick="resetScore()">RESET</button>
+        <script src="index.js"></script>
+    </body>
+</html>
